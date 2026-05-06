@@ -48,9 +48,9 @@ export default function LandingPage() {
             <a href="#about" className="transition hover:text-white">회사 소개</a>
           </nav>
 
-          <a href="#business">
+          <a href="#about">
             <Button size="sm" className="rounded-none bg-white text-[#111313] hover:bg-[#ff4a57] hover:text-white">
-              쇼핑몰 준비중
+              회사 소개
             </Button>
           </a>
         </div>
