@@ -490,3 +490,8 @@
     radial-gradient(circle at 18% 72%, rgba(78, 124, 120, 0.32), transparent 30%);
   background-size: 72px 72px, 72px 72px, 100% 100%, 100% 100%;
 }
+
+.keep-words {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}

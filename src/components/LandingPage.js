@@ -67,11 +67,11 @@ export default function LandingPage() {
                 글로벌 커머스 스타트업
               </p>
 
-              <h1 className="max-w-5xl font-display text-4xl font-black leading-[1.05] tracking-normal md:text-6xl lg:text-7xl">
+              <h1 className="keep-words max-w-5xl font-display text-4xl font-black leading-[1.12] tracking-normal md:text-6xl md:leading-[1.08] lg:text-7xl">
                 한국의 테크 제품을 글로벌 고객에게 연결합니다.
               </h1>
 
-              <p className="mt-7 max-w-2xl text-base leading-8 text-white/72 md:text-lg">
+              <p className="keep-words mt-7 max-w-2xl text-base leading-8 text-white/72 md:text-lg">
                 발게(Valge)는 컴퓨터 주변기기, 스마트 데스크 제품, 로봇 액세서리 등 미래형 워크스페이스 제품을 해외 시장에 판매하는 크로스보더 커머스 스타트업입니다.
               </p>
 
@@ -134,11 +134,11 @@ export default function LandingPage() {
             <div className="grid gap-10 lg:grid-cols-[0.82fr_1fr] lg:items-end">
               <div>
                 <p className="text-sm font-bold uppercase tracking-[0.24em] text-[#ff4a57]">사업 분야</p>
-                <h2 className="mt-4 font-display text-4xl font-black leading-tight md:text-6xl">
+                <h2 className="keep-words mt-4 font-display text-4xl font-black leading-[1.14] md:text-6xl md:leading-tight">
                   단순 쇼핑몰이 아닌 글로벌 테크 커머스 브랜드.
                 </h2>
               </div>
-              <p className="text-base leading-7 text-[#5c5f56] md:text-lg">
+              <p className="keep-words text-base leading-7 text-[#5c5f56] md:text-lg">
                 실제 판매는 Shopify 기반 스토어에서 운영하고, 이 홈페이지는 글로벌 소싱, 데이터 기반 상품 큐레이션, 콘텐츠 커머스, 한국-미국 운영 구조를 보여주는 회사 소개 채널로 사용합니다.
               </p>
             </div>
@@ -156,7 +156,7 @@ export default function LandingPage() {
         <section id="model" className="bg-[#e4e1d8] py-20 md:py-28">
           <div className="mx-auto max-w-7xl px-5 md:px-8">
             <p className="text-sm font-bold uppercase tracking-[0.24em] text-[#ff4a57]">운영 구조</p>
-            <h2 className="mt-4 max-w-5xl font-display text-4xl font-black leading-tight md:text-6xl">
+            <h2 className="keep-words mt-4 max-w-5xl font-display text-4xl font-black leading-[1.14] md:text-6xl md:leading-tight">
               국내 운영 이력, 수출 확장, 미국 현지 운영을 하나의 성장 구조로 연결합니다.
             </h2>
 
@@ -165,7 +165,7 @@ export default function LandingPage() {
                 <article key={item.title} className="border border-[#111313]/12 bg-[#f4f1ea] p-7">
                   <span className="text-sm font-black text-[#ff4a57]">0{index + 1}</span>
                   <h3 className="mt-6 text-2xl font-black">{item.title}</h3>
-                  <p className="mt-4 leading-7 text-[#5c5f56]">{item.description}</p>
+                  <p className="keep-words mt-4 leading-7 text-[#5c5f56]">{item.description}</p>
                 </article>
               ))}
             </div>
@@ -176,10 +176,10 @@ export default function LandingPage() {
           <div className="mx-auto grid max-w-7xl gap-12 px-5 md:px-8 lg:grid-cols-[0.9fr_1fr]">
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.24em] text-[#ff7b86]">핵심 운영 역량</p>
-              <h2 className="mt-4 font-display text-4xl font-black leading-tight md:text-6xl">
+              <h2 className="keep-words mt-4 font-display text-4xl font-black leading-[1.14] md:text-6xl md:leading-tight">
                 발게는 테크 제품의 글로벌 판매를 실행하는 크로스보더 커머스 운영사입니다.
               </h2>
-              <p className="mt-6 leading-7 text-white/68">
+              <p className="keep-words mt-6 leading-7 text-white/68">
                 국내 커머스 운영 경험을 바탕으로 상품 발굴, 콘텐츠 현지화, 해외 판매 채널 운영을 연결합니다. 한국에서 시작한 제품과 브랜드가 글로벌 고객에게 더 자연스럽게 도달하도록 판매 구조를 설계합니다.
               </p>
             </div>
