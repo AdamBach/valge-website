@@ -48,9 +48,9 @@ export default function LandingPage() {
             <a href="#about" className="transition hover:text-white">회사 소개</a>
           </nav>
 
-          <a href="#about">
+          <a href="#model">
             <Button size="sm" className="rounded-none bg-white text-[#111313] hover:bg-[#ff4a57] hover:text-white">
-              회사 소개
+              성장 구조
             </Button>
           </a>
         </div>
@@ -78,7 +78,7 @@ export default function LandingPage() {
               <div className="mt-9 flex flex-col gap-3 sm:flex-row">
                 <a href="#about">
                   <Button size="lg" className="w-full rounded-none bg-[#ff4a57] text-white hover:bg-white hover:text-[#111313] sm:w-auto">
-                    회사 소개 보기
+                    핵심 역량 보기
                   </Button>
                 </a>
                 <a href="#model">
