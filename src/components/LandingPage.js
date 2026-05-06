@@ -4,23 +4,23 @@ import { Button } from '@/components/ui/button'
 const categories = ['키보드', '마우스', '데스크 시스템', '로봇 액세서리', '스마트 워크스페이스', '컴퓨터 주변기기']
 
 const metrics = [
-  { value: '2022', label: '국내 사업 운영 시작' },
-  { value: '2025', label: '수출 사업 확장' },
-  { value: 'US', label: 'Valge LLC 운영 거점' },
+  { value: '2022', label: '국내 커머스 운영 시작' },
+  { value: '2025', label: '미국 LLC 기반 확장' },
+  { value: 'US', label: '현지 판매 운영 거점' },
 ]
 
 const model = [
   {
     title: '2022 한국 사업자',
-    description: '기존 운영 이력과 커머스 경험을 보유한 국내 사업 주체입니다. 코리아스타트업포럼 정회원 신청의 기준 사업자로 활용합니다.',
+    description: '국내 커머스 운영 경험과 사업 이력을 보유한 기준 사업 주체입니다. 발게의 글로벌 커머스 확장을 위한 운영 기반으로 활용합니다.',
   },
   {
-    title: '2025 수출 사업 확장',
-    description: '해외 판매, 상품 소싱, 수출 관련 운영을 담당하는 확장 사업입니다. 기존 사업 경험을 글로벌 커머스로 전환하는 역할입니다.',
+    title: '미국 시장 중심 확장',
+    description: '미국 LLC를 기반으로 현지 상품 소싱, 판매 채널 운영, 정산, 고객 대응 구조를 구축합니다. 초기에는 미국 시장에서 검증 가능한 테크 워크스페이스 제품 카테고리에 집중합니다.',
   },
   {
-    title: '미국 LLC 운영 거점',
-    description: '미국 판매 채널, 정산, 고객 대응을 위한 해외 운영 거점입니다. 한국 상품의 글로벌 판매 실행력을 높입니다.',
+    title: 'Shopify 판매 채널',
+    description: 'Shopify를 중심으로 글로벌 고객에게 제품을 소개하고 판매합니다. 상품 리서치, 콘텐츠 현지화, 판매 데이터 분석을 통해 운영 효율을 높입니다.',
   },
 ]
 
@@ -45,7 +45,7 @@ export default function LandingPage() {
           <nav className="hidden items-center gap-7 text-sm font-medium text-white/70 lg:flex">
             <a href="#business" className="transition hover:text-white">사업 분야</a>
             <a href="#model" className="transition hover:text-white">운영 구조</a>
-            <a href="#about" className="transition hover:text-white">회사 소개</a>
+            <a href="#about" className="transition hover:text-white">핵심 역량</a>
           </nav>
 
           <a href="#model">
@@ -68,11 +68,11 @@ export default function LandingPage() {
               </p>
 
               <h1 className="keep-words max-w-5xl font-display text-4xl font-black leading-[1.12] tracking-normal md:text-6xl md:leading-[1.08] lg:text-7xl">
-                한국의 테크 제품을 글로벌 고객에게 연결합니다.
+                테크 워크스페이스 제품을 글로벌 고객에게 연결합니다.
               </h1>
 
               <p className="keep-words mt-7 max-w-2xl text-base leading-8 text-white/72 md:text-lg">
-                발게(Valge)는 컴퓨터 주변기기, 스마트 데스크 제품, 로봇 액세서리 등 미래형 워크스페이스 제품을 해외 시장에 판매하는 크로스보더 커머스 스타트업입니다.
+                발게(Valge)는 미국 시장을 중심으로 컴퓨터 주변기기, 스마트 데스크 제품, 로봇 액세서리 등 테크 기반 워크스페이스 제품을 큐레이션하고 판매하는 크로스보더 커머스 브랜드입니다.
               </p>
 
               <div className="mt-9 flex flex-col gap-3 sm:flex-row">
@@ -139,7 +139,7 @@ export default function LandingPage() {
                 </h2>
               </div>
               <p className="keep-words text-base leading-7 text-[#5c5f56] md:text-lg">
-                실제 판매는 Shopify 기반 스토어에서 운영하고, 이 홈페이지는 글로벌 소싱, 데이터 기반 상품 큐레이션, 콘텐츠 커머스, 한국-미국 운영 구조를 보여주는 회사 소개 채널로 사용합니다.
+                실제 판매는 Shopify 기반 스토어에서 운영하고, 이 홈페이지는 상품 리서치, 데이터 기반 큐레이션, 콘텐츠 커머스, 미국 LLC 기반 현지 운영 구조를 보여주는 회사 소개 채널로 사용합니다.
               </p>
             </div>
 
@@ -157,7 +157,7 @@ export default function LandingPage() {
           <div className="mx-auto max-w-7xl px-5 md:px-8">
             <p className="text-sm font-bold uppercase tracking-[0.24em] text-[#ff4a57]">운영 구조</p>
             <h2 className="keep-words mt-4 max-w-5xl font-display text-4xl font-black leading-[1.14] md:text-6xl md:leading-tight">
-              국내 운영 이력, 수출 확장, 미국 현지 운영을 하나의 성장 구조로 연결합니다.
+              국내 운영 이력과 미국 현지 운영을 하나의 성장 구조로 연결합니다.
             </h2>
 
             <div className="mt-12 grid gap-4 lg:grid-cols-3">
@@ -177,10 +177,10 @@ export default function LandingPage() {
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.24em] text-[#ff7b86]">핵심 운영 역량</p>
               <h2 className="keep-words mt-4 font-display text-4xl font-black leading-[1.14] md:text-6xl md:leading-tight">
-                발게는 테크 제품의 글로벌 판매를 실행하는 크로스보더 커머스 운영사입니다.
+                발게는 미국 시장 중심의 글로벌 커머스 운영 역량을 구축합니다.
               </h2>
               <p className="keep-words mt-6 leading-7 text-white/68">
-                국내 커머스 운영 경험을 바탕으로 상품 발굴, 콘텐츠 현지화, 해외 판매 채널 운영을 연결합니다. 한국에서 시작한 제품과 브랜드가 글로벌 고객에게 더 자연스럽게 도달하도록 판매 구조를 설계합니다.
+                국내 커머스 운영 경험을 바탕으로 상품 발굴, 콘텐츠 현지화, 해외 판매 채널 운영을 연결합니다. 초기에는 미국 시장에서 검증 가능한 제품 카테고리에 집중하고, 향후 국내 브랜드와 상품의 해외 판매 확장까지 연결할 수 있는 운영 기반을 만들어갑니다.
               </p>
             </div>
 
@@ -198,7 +198,7 @@ export default function LandingPage() {
       <footer className="border-t border-[#111313]/10 bg-[#f4f1ea] py-10">
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-5 text-sm text-[#5c5f56] md:flex-row md:items-center md:justify-between md:px-8">
           <img src="/valge-logo-dark.svg" alt="VALGE" className="h-9 w-auto object-contain" />
-          <span>미래형 워크스페이스 제품을 위한 글로벌 커머스 운영사</span>
+          <span>테크 워크스페이스 제품을 위한 글로벌 커머스 운영사</span>
         </div>
       </footer>
     </div>
