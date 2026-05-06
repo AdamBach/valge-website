@@ -1,0 +1,25 @@
+<svg width="305" height="195" viewBox="0 0 305 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="305" height="195" fill="#111313"/>
+  <defs>
+    <linearGradient id="orbBase" x1="196" y1="55" x2="252" y2="121" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD7D9"/>
+      <stop offset="0.46" stop-color="#F04D5D"/>
+      <stop offset="1" stop-color="#C90F24"/>
+    </linearGradient>
+    <clipPath id="orbClip">
+      <circle cx="232" cy="92" r="34"/>
+    </clipPath>
+  </defs>
+
+  <text x="31" y="105" fill="#FF4A57" font-family="Georgia, 'Times New Roman', serif" font-size="37" font-weight="700" letter-spacing="1.2">
+    VALGE
+  </text>
+
+  <circle cx="232" cy="92" r="34" fill="url(#orbBase)"/>
+  <g clip-path="url(#orbClip)">
+    <path d="M188 74C201 64 214 67 227 74C242 82 256 79 275 63V88C258 101 242 101 226 92C212 84 200 83 188 94V74Z" fill="#FFC4CA" opacity="0.72"/>
+    <path d="M188 96C202 85 216 87 230 96C245 105 258 102 276 85V110C258 126 243 124 227 113C213 104 201 104 188 117V96Z" fill="#E52B43" opacity="0.76"/>
+    <path d="M188 116C203 105 217 108 233 117C249 126 263 125 276 112V128H188V116Z" fill="#B9081E" opacity="0.88"/>
+  </g>
+  <circle cx="232" cy="92" r="34" stroke="#FF7B86" stroke-width="2.5"/>
+</svg>

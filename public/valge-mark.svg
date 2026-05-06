@@ -1,0 +1,20 @@
+<svg width="144" height="144" viewBox="0 0 144 144" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="orbBase" x1="32" y1="20" x2="112" y2="124" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD7D9"/>
+      <stop offset="0.45" stop-color="#F04D5D"/>
+      <stop offset="1" stop-color="#C90F24"/>
+    </linearGradient>
+    <clipPath id="orbClip">
+      <circle cx="72" cy="72" r="56"/>
+    </clipPath>
+  </defs>
+
+  <circle cx="72" cy="72" r="56" fill="url(#orbBase)"/>
+  <g clip-path="url(#orbClip)">
+    <path d="M0 45C20 29 42 32 63 43C86 55 107 51 144 26V65C112 87 87 83 62 68C39 54 21 56 0 75V45Z" fill="#FFC8CE" opacity="0.7"/>
+    <path d="M0 78C22 58 45 61 68 75C92 90 112 87 144 61V100C113 126 88 121 62 101C40 84 20 88 0 111V78Z" fill="#E52B43" opacity="0.76"/>
+    <path d="M0 111C24 91 46 97 72 111C98 126 119 122 144 101V144H0V111Z" fill="#B9081E" opacity="0.9"/>
+  </g>
+  <circle cx="72" cy="72" r="56" stroke="#FF7B86" stroke-width="4"/>
+</svg>
