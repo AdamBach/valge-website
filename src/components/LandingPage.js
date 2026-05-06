@@ -25,9 +25,10 @@ const model = [
 ]
 
 const capabilities = [
-  'AI 기반 상품 리서치와 콘텐츠 제작',
+  '데이터 기반 상품 리서치',
   '글로벌 트렌드 및 판매 데이터 분석',
-  '해외 시장에 맞춘 상품 큐레이션',
+  '해외 시장 맞춤 상품 큐레이션',
+  '콘텐츠 기반 커머스 운영',
   'Shopify 기반 글로벌 판매 채널 운영',
   '미국 LLC 기반 현지 판매 및 고객 대응',
 ]
@@ -174,7 +175,7 @@ export default function LandingPage() {
         <section id="about" className="bg-[#111313] py-20 text-white md:py-28">
           <div className="mx-auto grid max-w-7xl gap-12 px-5 md:px-8 lg:grid-cols-[0.9fr_1fr]">
             <div>
-              <p className="text-sm font-bold uppercase tracking-[0.24em] text-[#ff7b86]">About Valge</p>
+              <p className="text-sm font-bold uppercase tracking-[0.24em] text-[#ff7b86]">핵심 운영 역량</p>
               <h2 className="mt-4 font-display text-4xl font-black leading-tight md:text-6xl">
                 발게는 테크 제품의 글로벌 판매를 실행하는 크로스보더 커머스 운영사입니다.
               </h2>
@@ -185,9 +186,8 @@ export default function LandingPage() {
 
             <div className="grid gap-4">
               {capabilities.map((capability) => (
-                <div key={capability} className="flex items-center justify-between border border-white/12 bg-white/[0.04] p-5">
+                <div key={capability} className="border border-white/12 bg-white/[0.04] p-5">
                   <span className="font-semibold">{capability}</span>
-                  <span className="text-[#ff7b86]">+</span>
                 </div>
               ))}
             </div>
